@@ -2,6 +2,8 @@
 int dieNum, sum;
 void setup()
 {
+    
+     background(#ABD7F2, 0.8);  
   background((int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120, 0.8);  
   size(500, 500);
   textAlign(CENTER, CENTER);
@@ -12,7 +14,10 @@ void setup()
 }
 void draw()
 {
-     background((int)(Math.random()* 60) +180, (int)(Math.random()* 60) +180, (int)(Math.random()* 60) +180, 0.8);  
+    int colorO =(int)(Math.random()* 60) +180;
+    int ColorTw = (int)(Math.random()* 60) +180;
+    int ColorTh = (int)(Math.random()* 60) +180;
+     background(colorO, ColorTw, ColorTh, 0.8);  
   int xPos, yPos;
   for (yPos = 25; yPos < 400; yPos = yPos + 110) {
     for (xPos = 25; xPos < 400; xPos = xPos + 110) {
