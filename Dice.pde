@@ -61,25 +61,25 @@ class Die //models one single dice cube
 
     fill(255);
     if (dieNum == 1) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#FFA595);
       ellipse(myX + 45, myY + 45, 20, 20);
     }
     if (dieNum == 2) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#FFEE95);
       ellipse(myX + 15, myY + 15, 20, 20);
       ellipse(myX + 75, myY + 75, 20, 20);
     }
     if (dieNum == 3) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#ACFF95);
       ellipse(myX + 15, myY + 15, 20, 20);
       ellipse(myX + 75, myY + 75, 20, 20);
       ellipse(myX + 45, myY + 45, 20, 20);
     }
     if (dieNum == 4) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#95FFF5);
       ellipse(myX + 15, myY + 15, 20, 20);
       ellipse(myX + 75, myY + 15, 20, 20);
@@ -87,7 +87,7 @@ class Die //models one single dice cube
       ellipse(myX + 15, myY + 75, 20, 20);
     }
     if (dieNum == 5) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#CA95FF);
       ellipse(myX + 15, myY + 15, 20, 20);
       ellipse(myX + 75, myY + 15, 20, 20);
@@ -96,7 +96,7 @@ class Die //models one single dice cube
       ellipse(myX + 45, myY + 45, 20, 20);
     }
     if (dieNum == 6) {
-      square(myX, myY, 90);
+      rect(myX, myY, 90, 90);
       fill(#FF95F1);
       ellipse(myX + 15, myY + 15, 20, 20);
       ellipse(myX + 15, myY + 45, 20, 20);
