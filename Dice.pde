@@ -19,7 +19,7 @@ void draw()
       Die test = new Die(xPos, yPos);
       test.roll();
       test.show();
-      System.out.println(sum );
+      // System.out.println(sum );
       sum = sum+dieNum;
        
     }
@@ -34,7 +34,7 @@ void mousePressed()
 
   redraw();
   sum = 0;
-  System.out.println("");
+  //System.out.println("");
 }
 class Die //models one single dice cube
 {
