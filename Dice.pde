@@ -4,7 +4,7 @@ void setup()
 {
     
      background(#ABD7F2, 0.8);  
-  background((int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120, 0.8);  
+  background((int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120, (int)(Math.random()* 120) +120);  
   size(500, 500);
   textAlign(CENTER, CENTER);
   noLoop();
